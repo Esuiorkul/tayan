@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 1440px;
+    height: 1000px;
+    background-color: rgba(242, 244, 247, 0.779);
+    margin: 0 auto  ;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto  ;
+    background-color: rgba(5, 63, 155, 0.462);
+}
+
+.logo-head{
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    color: gold;
+    font-style: normal;
+}
+
+.logo-head:hover{
+    font-family: "Yuji Mai", serif;
+    font-weight: 200;
+    color: rgb(52, 25, 111);
+    font-style: normal;
+    cursor: pointer;
+}
+
+.input-head input{
+    width: 200px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.input-head button{
+    width: 50px;
+    height: 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+.info-head{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.info-head a{
+    text-decoration: none;
+}
+
+
+
+
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.video-1{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative; 
+
+}
+
+.video-1 video{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+
+
+}
+
+.video-1 h1{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    font-size: 60px;
+    color: gold;
+    font-family: "Yuji Mai", serif;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+
+.video-1 h1:hover{
+    letter-spacing: 10px;
+    font-weight: 300;
+    transition: 2s;
+
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: calc(relative);
+}
+
+.box{
+ 
+    width: 205px;
+    height:270px ;
+    border-radius: 6px;
+    background-color: azure;
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.51);
+    -moz-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.51);
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.51);
+}
+.box button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: gold;
+    width: 60%;
+    height: 25px;
+    margin: 0 auto;
+    margin-top:12px;
+    cursor: pointer;
+    border-radius: 7px;
+
+}
+
+.box button:active{
+    background-color: #2a0bdd;
+    color: aliceblue;
+    transition: 1s;
+}
+.boxes p{
+    font-size: 20px;
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.boxes img{
+    width: 200px;
+    height: 200px;
+}
+
+
+footer{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+
+
+
+ 
+
